@@ -30,38 +30,42 @@ class ViewController: UIViewController {
             print("Test1 - B")
         })
         
-        
-        
-        let dic: [String : Double] = [
+        // Split Test with Weighted Probabilities
+        SwiftSkyLab.splitTest("Test2", conditions: [
             "Red" : 0.15,
             "Green" : 0.10,
             "Blue" : 0.50,
             "Purple" : 0.25
-        ]
+        ]) { (choice) in
+            print("Test2 - \(choice ?? "None")")
+        }
         
-        let array: [String] = [
+        SwiftSkyLab.splitTest("Test4", conditions: [
             "Red",
             "Green",
             "Blue",
             "Purple"
-        ]
-        
-        // Split Test with Weighted Probabilities
-        SwiftSkyLab.splitTest("Test2", conditions: dic) { (choice) in
-            print("Test2 - \(choice ?? "None")")
-        }
-        
-        
-        SwiftSkyLab.splitTest("Test4", conditions: array) { (choice) in
+        ]) { (choice) in
             print("Test4 - \(choice ?? "None")")
         }
         
-        SwiftSkyLab.multivariateTest("Test3", variables: array) { (activeVariables) in
-            print("Test3 - \(activeVariables)")
+        // Multivariate Test
+        SwiftSkyLab.multivariateTest("Test5", variables: [
+            "Red" : 0.15,
+            "Green" : 0.10,
+            "Blue" : 0.50,
+            "Purple" : 0.25
+        ]) { (activeVariables) in
+            print("Test5 - \(activeVariables)")
         }
         
-        SwiftSkyLab.multivariateTest("Test5", variables: dic) { (activeVariables) in
-            print("Test5 - \(activeVariables)")
+        SwiftSkyLab.multivariateTest("Test3", variables: [
+            "Red",
+            "Green",
+            "Blue",
+            "Purple"
+        ]) { (activeVariables) in
+            print("Test3 - \(activeVariables)")
         }
     }
     
