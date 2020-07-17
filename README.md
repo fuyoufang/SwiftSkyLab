@@ -1,9 +1,9 @@
-# SwiftSkyLib
+# SwiftSkyLab
 
-[![CI Status](https://img.shields.io/travis/fuyoufang/SwiftSkyLib.svg?style=flat)](https://travis-ci.org/fuyoufang/SwiftSkyLib)
-[![Version](https://img.shields.io/cocoapods/v/SwiftSkyLib.svg?style=flat)](https://cocoapods.org/pods/SwiftSkyLib)
-[![License](https://img.shields.io/cocoapods/l/SwiftSkyLib.svg?style=flat)](https://cocoapods.org/pods/SwiftSkyLib)
-[![Platform](https://img.shields.io/cocoapods/p/SwiftSkyLib.svg?style=flat)](https://cocoapods.org/pods/SwiftSkyLib)
+[![CI Status](https://img.shields.io/travis/fuyoufang/SwiftSkyLab.svg?style=flat)](https://travis-ci.org/fuyoufang/SwiftSkyLab)
+[![Version](https://img.shields.io/cocoapods/v/SwiftSkyLab.svg?style=flat)](https://cocoapods.org/pods/SwiftSkyLab)
+[![License](https://img.shields.io/cocoapods/l/SwiftSkyLab.svg?style=flat)](https://cocoapods.org/pods/SwiftSkyLab)
+[![Platform](https://img.shields.io/cocoapods/p/SwiftSkyLab.svg?style=flat)](https://cocoapods.org/pods/SwiftSkyLab)
 
 适用于 iOS 和 Mac 的 A/B 测试框架。 
 
@@ -68,11 +68,11 @@ SwiftSkyLab.multivariateTest("Test3", variables: [
 
 ## Installation
 
-SwiftSkyLib is available through [CocoaPods](https://cocoapods.org). To install
+SwiftSkyLab is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SwiftSkyLib'
+pod 'SwiftSkyLab'
 ```
 
 ## Author
@@ -81,4 +81,4 @@ fuyoufang, fuyoufang@163.com
 
 ## License
 
-SwiftSkyLib is available under the MIT license. See the LICENSE file for more info.
+SwiftSkyLab is available under the MIT license. See the LICENSE file for more info.
