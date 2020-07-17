@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+  - SwiftSkyLab (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
+  - SwiftSkyLab (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  SwiftSkyLab:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SwiftSkyLab: 3f8ef492cc76aaaf2edffecfcf0a6c825355dbc2
+
+PODFILE CHECKSUM: 12b6354bbb49e8f62f879cb1ab28d620c5e108f0
+
+COCOAPODS: 1.9.0.beta.2
